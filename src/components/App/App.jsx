@@ -6,6 +6,7 @@ import {
 } from "react-router-dom/cjs/react-router-dom.min.js";
 import StudentForm from "../StudentForm/StudentForm.jsx";
 import StudentList from "../StudentList/StudentList.jsx";
+import About from "../About/About.jsx";
 import Nav from "./Nav.jsx";
 
 function App() {
@@ -25,13 +26,7 @@ function App() {
           <StudentList />
         </Route>
         <Route exact path="/about">
-          <p>
-            I am making all of this up to be honest, this is a completely made
-            up list of values, such as:
-          </p>
-          <li>Dont die</li>
-          <li>Eat cheese</li>
-          <li>Sleep hard</li>
+          <About />
         </Route>
       </Router>
     </div>
